@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Dashboard</h1>
+
+<p>
+This dashboard provides insights into heart disease risk factors
+based on lifestyle, age, smoking habits, alcohol consumption,
+and diabetes indicators.
+</p>
+
+<div style="margin-top:20px; border-radius:10px; overflow:hidden;">
+
+<iframe
+src="https://public.tableau.com/views/heart_dashboard_17714006320250/HeartDiseaseAnalysisDashboard?:showVizHome=no"
+width="100%"
+height="750">
+</iframe>
+
+</div>
+
+{% endblock %}
